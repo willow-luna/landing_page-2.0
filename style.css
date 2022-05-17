@@ -28,6 +28,7 @@ img{
 .food{
     display: flex;
     background-color: rgb(4, 142, 167);
+    margin: .5em;
     flex-basis: auto;
     flex-flow: 1 1 0;
     justify-content: space-around;
@@ -39,4 +40,32 @@ h2{
     display: flex;
     align-items: center;
     justify-content:center;
+}
+
+.review{
+    display: flex;
+    padding: 5em;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+
+}
+
+.bottom{
+    display: flex;
+    padding: 5em;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: column nowrap;
+}
+
+.footer{
+    display: flex;
+    padding: 5em;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row nowrap;
 }
