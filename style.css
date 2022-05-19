@@ -28,7 +28,8 @@ img{
 .food{
     display: flex;
     background-color: rgb(4, 142, 167);
-    margin: .5em;
+    padding: .5em;
+    margin:.5em;
     flex-basis: auto;
     flex-flow: 1 1 0;
     justify-content: space-around;
@@ -36,8 +37,11 @@ img{
     flex-direction: row;
 }
 
-h2{
+.menu{
     display: flex;
+    font-size: 3em;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
     align-items: center;
     justify-content:center;
 }
