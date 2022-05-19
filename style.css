@@ -44,28 +44,30 @@ h2{
 
 .review{
     display: flex;
-    padding: 5em;
-    margin: auto;
+    padding: .5em;
+    margin: 3em;
     justify-content: center;
     align-items: center;
-    flex-flow: column nowrap;
+    flex-flow: column wrap;
 
 }
 
 .bottom{
     display: flex;
-    padding: 5em;
-    margin: auto;
-    justify-content: space-around;
+    min-width: 100%;
+    padding: .5em;
+    margin: 3em;
+    justify-content: center;
     align-items: center;
-    flex-flow: column nowrap;
+    flex-flow: column wrap;
 }
 
 .footer{
     display: flex;
-    padding: 5em;
-    margin: auto;
+    min-width: 100%;
+    padding: .5em;
+    margin: 3em;
     justify-content: center;
     align-items: center;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
 }
