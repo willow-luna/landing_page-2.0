@@ -12,6 +12,14 @@ body{
     
 }
 
+.title{
+    text-align: center;
+    stroke-width: 16px;
+
+    
+
+}
+
 img{
     display: flex;
     max-width: 80%;
@@ -23,6 +31,18 @@ img{
     background-color: rgb(rgb(92, 137, 155));
     justify-content: center;
     align-items: center;
+}
+
+.links{
+    display: flex;
+    padding: .5em;
+    margin: .5em;
+    text-decoration: none;
+    flex-direction: row;
+    justify-content: space-around;
+
+   
+
 }
 
 .food{
