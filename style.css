@@ -50,6 +50,15 @@ img{
 
 }
 
+.bars{
+    display: flex;
+    padding: .5em;
+    margin: .5em;
+    flex-wrap: nowrap;
+    font-size: 1.5em;
+
+}
+
 .food{
     display: flex;
     background-color: rgb(4, 142, 167);
