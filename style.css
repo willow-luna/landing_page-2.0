@@ -14,10 +14,8 @@ body{
 
 .title{
     text-align: center;
-    stroke-width: 16px;
-
-    
-
+    font-size: 1.8em;
+    font-weight: bold;
 }
 
 img{
@@ -33,6 +31,13 @@ img{
     align-items: center;
 }
 
+.selfpromo{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
 .links{
     display: flex;
     padding: .5em;
@@ -68,6 +73,7 @@ img{
 
 .review{
     display: flex;
+    font-size: 1.5em;
     padding: .5em;
     margin: 3em;
     justify-content: center;
