@@ -21,6 +21,8 @@ body{
 img{
     display: flex;
     max-width: 80%;
+    min-width: none;
+
     
 }
 
@@ -45,8 +47,6 @@ img{
     text-decoration: none;
     flex-direction: row;
     justify-content: space-around;
-
-   
 
 }
 
@@ -78,6 +78,14 @@ img{
     text-orientation: upright;
     align-items: center;
     justify-content:center;
+}
+
+.subtext{
+    display: flex;
+    max-width: 80%;
+    min-width: none;
+    justify-content: space-around;
+    text-align: center;
 }
 
 .review{
