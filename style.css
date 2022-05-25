@@ -13,17 +13,16 @@ body{
 }
 
 .title{
+    display: flex;
+    margin: 3rem;
     text-align: center;
-    font-size: 1.8em;
+    font-size: 1.8rem;
     font-weight: bold;
 }
 
 img{
     display: flex;
     max-width: 80%;
-    min-width: none;
-
-    
 }
 
 .top{
@@ -42,20 +41,19 @@ img{
 }
 .links{
     display: flex;
-    padding: .5em;
-    margin: .5em;
-    text-decoration: none;
+    padding: 1em;
+    gap: .5em;
     flex-direction: row;
-    justify-content: space-around;
+    text-decoration-line: none;
 
 }
 
 .bars{
     display: flex;
-    max-width: 80%;
+    flex-basis: 50%;
     padding: .5em;
     margin: .5em;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     font-size: 1.5em;
 
 }
@@ -65,8 +63,7 @@ img{
     background-color: rgb(4, 142, 167);
     padding: .5em;
     margin:.5em;
-    flex-basis: auto;
-    flex-flow: 1 1 0;
+    flex: 1 1 100%;
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
@@ -91,12 +88,16 @@ img{
 
 .review{
     display: flex;
+    background-color: rgb(182, 179, 179);
     font-size: 1.5em;
     padding: .5em;
+    padding-left: 12em;
+    padding-right: 12em;
     margin: 3em;
     justify-content: center;
     align-items: center;
     flex-flow: column wrap;
+    flex: 1;
 
 }
 
