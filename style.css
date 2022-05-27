@@ -25,12 +25,12 @@ img{
     max-width: 80%;
 }
 
-.top{
+/*.top{
     display:flex;
     background-color: rgb(rgb(92, 137, 155));
     justify-content: center;
     align-items: center;
-}
+}*/
 
 .selfpromo{
     display:flex;
@@ -39,19 +39,24 @@ img{
     align-items: center;
 
 }
+button{
+    display: flex;
+    padding: .5rem;
+    margin: auto;
+}
+
 a{
     display: flex;
     color: black;
     padding: 1em;
     gap: .5em;
-    flex-flow: column nowrap;
     text-decoration-line: none;
 
 }
 
 .bars{
     display: flex;
-    flex-basis: 50%;
+    flex-basis: 80%;
     padding: .5em;
     margin: .5em;
     flex-wrap: nowrap;
@@ -59,12 +64,19 @@ a{
 
 }
 
+.subtext0{
+    display: flex;
+    font-weight: 600;
+    padding: 1em;
+
+ 
+}
+
 .food{
     display: flex;
     background-color: rgb(4, 142, 167);
     padding: .5em;
     margin:.5em;
-    flex: 1 1 100%;
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
@@ -106,7 +118,7 @@ a{
     margin: 3em;
     justify-content: center;
     align-items: center;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
 }
 
 .footer{
