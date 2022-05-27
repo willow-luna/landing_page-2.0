@@ -39,11 +39,12 @@ img{
     align-items: center;
 
 }
-.links{
+a{
     display: flex;
+    color: black;
     padding: 1em;
     gap: .5em;
-    flex-direction: row;
+    flex-flow: column nowrap;
     text-decoration-line: none;
 
 }
@@ -91,13 +92,10 @@ img{
     background-color: rgb(182, 179, 179);
     font-size: 1.5em;
     padding: .5em;
-    padding-left: 12em;
-    padding-right: 12em;
-    margin: 3em;
+    margin: .5em;
     justify-content: center;
     align-items: center;
-    flex-flow: column wrap;
-    flex: 1;
+    flex: 1 1 100%;
 
 }
 
