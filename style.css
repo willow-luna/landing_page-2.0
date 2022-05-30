@@ -23,6 +23,7 @@ body{
 img{
     display: flex;
     max-width: 80%;
+    
 }
 
 /*.top{
@@ -64,20 +65,13 @@ a{
 
 }
 
-.subtext0{
-    display: flex;
-    font-weight: 600;
-    padding: 1em;
-
- 
-}
 
 .food{
     display: flex;
     background-color: rgb(4, 142, 167);
     padding: .5em;
     margin:.5em;
-    justify-content: space-around;
+    justify-content:space-around;
     align-items: center;
     flex-direction: row;
 }
@@ -88,17 +82,15 @@ a{
     writing-mode: vertical-lr;
     text-orientation: upright;
     align-items: center;
-    justify-content:center;
+    justify-content:space-around;
 }
 
 .subtext{
     display: flex;
     max-width: 80%;
-    min-width: none;
     justify-content: space-around;
     text-align: center;
 }
-
 .review{
     display: flex;
     background-color: rgb(182, 179, 179);
