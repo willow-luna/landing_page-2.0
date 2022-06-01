@@ -88,7 +88,9 @@ a{
 .subtext{
     display: flex;
     max-width: 80%;
-    justify-content: space-around;
+    padding: 1em;
+    margin: 1em;
+    justify-content: center;
     text-align: center;
 }
 .review{
